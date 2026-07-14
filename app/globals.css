@@ -1,0 +1,67 @@
+@import "../styles/variables.css";
+@import "../styles/scrollbar.css";
+@import "../styles/animations.css";
+@import "../styles/utilities.css";
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    background: var(--background);
+    color: var(--text-primary);
+    overflow-x: hidden;
+    font-family: var(--font-inter), sans-serif;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+}
+
+::selection {
+    background: var(--primary);
+    color: white;
+}
+
+section {
+    position: relative;
+    padding-block: 100px;
+}
+
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    transform-origin: left;
+    z-index: 9999;
+    background: linear-gradient(90deg,
+            var(--primary),
+            var(--secondary),
+            var(--accent));
+}

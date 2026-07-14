@@ -1,0 +1,130 @@
+/* ======================================================
+   Display
+====================================================== */
+
+.flex{
+    display:flex;
+}
+
+.flex-center{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.grid{
+    display:grid;
+}
+
+/* ======================================================
+   Width
+====================================================== */
+
+.w-full{
+    width:100%;
+}
+
+.h-full{
+    height:100%;
+}
+
+.min-h-screen{
+    min-height:100vh;
+}
+
+/* ======================================================
+   Glass
+====================================================== */
+
+.glass{
+
+    background:var(--glass);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid var(--border);
+
+}
+
+/* ======================================================
+   Gradient Text
+====================================================== */
+
+.text-gradient{
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    background-clip:text;
+
+}
+
+/* ======================================================
+   Shadows
+====================================================== */
+
+.shadow-sm{
+    box-shadow:var(--shadow-sm);
+}
+
+.shadow-md{
+    box-shadow:var(--shadow-md);
+}
+
+.shadow-lg{
+    box-shadow:var(--shadow-lg);
+}
+
+/* ======================================================
+   Hover
+====================================================== */
+
+.hover-lift{
+
+    transition:var(--transition);
+
+}
+
+.hover-lift:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.hover-scale{
+
+    transition:var(--transition);
+
+}
+
+.hover-scale:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* ======================================================
+   Border Radius
+====================================================== */
+
+.rounded-sm{
+    border-radius:var(--radius-sm);
+}
+
+.rounded-md{
+    border-radius:var(--radius-md);
+}
+
+.rounded-lg{
+    border-radius:var(--radius-lg);
+}

@@ -1,0 +1,58 @@
+/* ======================================================
+   Colors
+====================================================== */
+
+:root {
+  --background: #09090b;
+  --surface: #18181b;
+  --surface-2: #27272a;
+
+  --primary: #3b82f6;
+  --primary-light: #60a5fa;
+
+  --secondary: #06b6d4;
+
+  --accent: #8b5cf6;
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+
+  --border: rgba(255, 255, 255, 0.08);
+
+  --glass: rgba(255, 255, 255, 0.04);
+
+  --navbar-height: 80px;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.15);
+
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.2);
+
+  --transition: .3s ease;
+}
+
+/* ======================================================
+   Light Theme
+====================================================== */
+
+html[data-theme="light"] {
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+
+  --glass: rgba(255,255,255,.75);
+
+  --border: rgba(15,23,42,.08);
+}
