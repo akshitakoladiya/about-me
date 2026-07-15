@@ -5,11 +5,11 @@ import { Container, Grid } from "@mui/material";
 import SectionTitle from "@/components/common/SectionTitle";
 
 import SkillCategory from "./SkillCategory";
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 import ContainerSection from "../common/ContainerSection";
 
 export default function Skills() {
-  const { skills } = portfolio;
+  const { skills } = portfolioData;
   return (
     <ContainerSection
       id="skills"

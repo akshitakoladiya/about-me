@@ -1,7 +1,7 @@
 "use client";
 
 import { Stack, Typography } from "@mui/material";
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 
 export default function FooterContact() {
   return (

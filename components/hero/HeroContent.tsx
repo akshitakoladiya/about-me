@@ -12,7 +12,7 @@ import {
 import LocationOnRoundedIcon from "@mui/icons-material/LocationOnRounded";
 import WorkRoundedIcon from "@mui/icons-material/WorkRounded";
 import HeroButtons from "./HeroButtons";
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 
 const containerVariants = {
   hidden: {
@@ -41,7 +41,7 @@ const itemVariants = {
 };
 
 export default function HeroContent() {
-const {profile} = portfolio;
+  const { profile } = portfolioData;
   return (
     <motion.div
       variants={containerVariants}

@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
 
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 
 export default function ResumeButton() {
   return (

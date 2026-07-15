@@ -2,10 +2,10 @@ import { Button, Stack } from "@mui/material";
 import { motion } from "framer-motion";
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
 import MailRoundedIcon from "@mui/icons-material/MailRounded";
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 
 export default function HeroButtons() {
-  const {profile} = portfolio;
+  const { profile } = portfolioData;
   return (
     <Stack
       direction={{ xs: "column", sm: "row" }}

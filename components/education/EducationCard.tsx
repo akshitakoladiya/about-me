@@ -14,11 +14,11 @@ import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
 import CalendarMonthRoundedIcon from "@mui/icons-material/CalendarMonthRounded";
 import LocationOnRoundedIcon from "@mui/icons-material/LocationOnRounded";
 
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 
 export default function EducationCard() {
-    const { education } = portfolio;
-    const { degrees } = education;
+  const { education } = portfolioData;
+  const { degrees } = education;
   return (
     <motion.div
       initial={{

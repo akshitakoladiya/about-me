@@ -4,12 +4,12 @@ import { Container, Stack } from "@mui/material";
 
 import SectionTitle from "@/components/common/SectionTitle";
 
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 import ExperienceCard from "./ExperienceCard";
 import ContainerSection from "../common/ContainerSection";
 
 export default function Experience() {
-  const { experience } = portfolio;
+  const { experience } = portfolioData;
   return (
     <ContainerSection
       id="experience"

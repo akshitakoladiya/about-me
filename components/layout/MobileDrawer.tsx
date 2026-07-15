@@ -17,7 +17,7 @@ import {
 import DownloadRoundedIcon from "@mui/icons-material/DownloadRounded";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 
 interface MenuItem {
   label: string;
@@ -35,7 +35,7 @@ export default function MobileDrawer({
   onClose,
   menus,
 }: MobileDrawerProps) {
-  const { profile } = portfolio;
+  const { profile } = portfolioData;
   return (
     <Drawer
       anchor="right"

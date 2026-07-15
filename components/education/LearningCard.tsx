@@ -13,10 +13,10 @@ import {
 import MenuBookRoundedIcon from "@mui/icons-material/MenuBookRounded";
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 
 export default function LearningCard() {
-    const { education } = portfolio;
+    const { education } = portfolioData;
     const { currentLearnings } = education;
     return (
         <Card
@@ -58,7 +58,7 @@ export default function LearningCard() {
 
                             <ListItemText
                                 primary={item.title}
-                                // secondary={item.issuer}
+                            // secondary={item.issuer}
                             />
                         </ListItem>
                     ))}

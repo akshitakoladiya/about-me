@@ -19,10 +19,10 @@ import LanguageRoundedIcon from "@mui/icons-material/LanguageRounded";
 import { motion } from "framer-motion";
 
 import ContainerSection from "@/components/common/ContainerSection";
-import { portfolio } from "@/data/portfolio";
+import { portfolioData } from "@/data/portfolio";
 
 export default function ContactCTA() {
-    const { profile } = portfolio
+    const { profile } = portfolioData;
     return (
         <ContainerSection
             id="contact"
