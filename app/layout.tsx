@@ -13,15 +13,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://your-domain.vercel.app"),
-
   title: {
     default: "Akshita Koladiya | Senior Full Stack Developer",
     template: "%s | Akshita Koladiya",
   },
-
-  description:
-    "Senior Full Stack Developer based in Germany specializing in React, Next.js, Node.js, GraphQL, TypeScript and scalable enterprise applications.",
-
+  description:"Senior Full Stack Developer based in Germany specializing in React, Next.js, Node.js, GraphQL, TypeScript and scalable enterprise applications.",
   keywords: [
     "Akshita Koladiya",
     "React Developer",
@@ -42,20 +38,13 @@ export const metadata: Metadata = {
   ],
 
   creator: "Akshita Koladiya",
-
   openGraph: {
     type: "website",
     locale: "en_US",
-
     title: "Akshita Koladiya",
-
-    description:
-      "Senior Full Stack Developer | React | Next.js | Node.js | GraphQL | React Native | TypeScript | Material UI | Germany",
-
+    description: "Senior Full Stack Developer | React | Next.js | Node.js | GraphQL | React Native | TypeScript | Material UI | Germany",
     // url: "https://your-domain.vercel.app",
-
     siteName: "Akshita Portfolio",
-
     images: [
       {
         url: "/images/og-image.png",
@@ -68,12 +57,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-
     title: "Akshita Koladiya",
-
-    description:
-      "Senior Full Stack Developer based in Germany.",
-
+    description: "Senior Full Stack Developer based in Germany.",
     images: ["/images/og-image.png"],
   },
 
