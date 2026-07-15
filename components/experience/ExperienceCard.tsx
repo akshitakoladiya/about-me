@@ -19,7 +19,7 @@ import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 
 import { Experience } from "@/data/portfolio";
 
-interface Props {
+interface PropsData {
   experience: Experience;
   index: number;
 }
@@ -27,20 +27,20 @@ interface Props {
 export default function ExperienceCard({
   experience,
   index,
-}: Props) {
+}: PropsData) {
   return (
     <motion.div
       initial={{
         opacity: 0,
-        x: index % 2 === 0 ? -40 : 40,
+        y: 50,
       }}
       whileInView={{
         opacity: 1,
-        x: 0,
+        y: 0,
       }}
       viewport={{
         once: true,
-        amount: 0.3,
+        amount: 0.2,
       }}
       transition={{
         duration: 0.6,
