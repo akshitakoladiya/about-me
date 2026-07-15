@@ -8,8 +8,7 @@ A modern, responsive portfolio website built with **Next.js 15**, **React 19**, 
 
 ## 🌐 Live Demo
 
-Coming Soon
-
+https://akshitakoladiya.vercel.app/
 ---
 
 ## 👩‍💻 About Me
