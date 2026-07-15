@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     default: "Akshita Koladiya | Senior Full Stack Developer",
     template: "%s | Akshita Koladiya",
   },
-  description:"Senior Full Stack Developer based in Germany specializing in React, Next.js, Node.js, GraphQL, TypeScript and scalable enterprise applications.",
+  description: "Senior Full Stack Developer based in Germany specializing in React, Next.js, Node.js, GraphQL, TypeScript and scalable enterprise applications.",
   keywords: [
     "Akshita Koladiya",
     "React Developer",
@@ -84,7 +84,7 @@ export default function RootLayout({
       lang="en"
       suppressHydrationWarning
     >
-      <body>
+      <body suppressHydrationWarning>
         <Providers>
           <ScrollProgress />
 

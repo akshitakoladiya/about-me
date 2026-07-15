@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
     "allowJs": false,
     "skipLibCheck": true,
     "strict": true,
@@ -13,21 +17,28 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-
     "plugins": [
       {
         "name": "next"
       }
     ],
-
     "baseUrl": ".",
-
     "paths": {
-      "@/*": ["./*"],
-      "@/app/*": ["./app/*"],
-      "@/components/*": ["./components/*"],
-      "@/theme/*": ["./theme/*"],
-      "@/data/*": ["./data/*"],
+      "@/*": [
+        "./*"
+      ],
+      "@/app/*": [
+        "./app/*"
+      ],
+      "@/components/*": [
+        "./components/*"
+      ],
+      "@/theme/*": [
+        "./theme/*"
+      ],
+      "@/data/*": [
+        "./data/*"
+      ]
       // "@/hooks/*": ["./hooks/*"],
       // "@/types/*": ["./types/*"],
       // "@/utils/*": ["./utils/*"],
@@ -35,14 +46,13 @@
       // "@/i18n/*": ["./i18n/*"]
     }
   },
-
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
   ],
-
   "exclude": [
     "node_modules"
   ]

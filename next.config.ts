@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-
+  devIndicators: false, // disable devtool for this project
   poweredByHeader: false,
 
   compress: true,

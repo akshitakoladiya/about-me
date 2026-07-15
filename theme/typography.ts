@@ -1,6 +1,4 @@
-import { TypographyOptions } from "@mui/material/styles";
-
-export const typography: TypographyOptions = {
+export const Typography = {
   fontFamily: [
     "Inter",
     "-apple-system",
@@ -78,7 +76,7 @@ export const typography: TypographyOptions = {
   button: {
     fontWeight: 600,
     fontSize: "1rem",
-    textTransform: "none",
+    textTransform: "none" as const,
     letterSpacing: "0.02em",
   },
 
@@ -91,7 +89,7 @@ export const typography: TypographyOptions = {
   overline: {
     fontWeight: 700,
     fontSize: "0.75rem",
-    textTransform: "uppercase",
+    textTransform: "uppercase" as const,
     letterSpacing: "0.15em",
   },
 };
