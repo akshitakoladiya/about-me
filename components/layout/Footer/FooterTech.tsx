@@ -3,12 +3,13 @@
 import { Stack, Typography } from "@mui/material";
 
 const tech = [
-  "React",
-  "Next.js",
-  "Node.js",
+  "React, Next.js",
+  "Node.js, Nest.js",
   "TypeScript",
+  "ReactNative",  
   "GraphQL",
   "MongoDB",
+  "Firebase",
 ];
 
 export default function FooterTech() {

@@ -22,7 +22,7 @@ export default function Footer() {
           container
           spacing={6}
         >
-          <Grid size={{ xs: 12, md: 4 }}>
+          <Grid size={{ xs: 12, md: 3 }}>
             <FooterBrand />
           </Grid>
 
@@ -34,16 +34,16 @@ export default function Footer() {
             <FooterTech />
           </Grid>
 
-          <Grid size={{ xs: 12, md: 2 }}>
+          <Grid size={{ xs: 6, md: 3 }}>
             <FooterContact />
           </Grid>
 
-          <Grid size={{ xs: 12, md: 2 }}>
+          <Grid size={{ xs: 6, md: 2 }}>
             <FooterSocial />
           </Grid>
         </Grid>
 
-        <Divider sx={{ my: 6 }} />
+        <Divider sx={{ my: 2 }} />
 
         <FooterBottom />
       </Container>

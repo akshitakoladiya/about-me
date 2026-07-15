@@ -9,8 +9,8 @@ export default function FooterBrand() {
       <Logo />
 
       <Typography color="text.secondary">
-        Building enterprise software using React,
-        Next.js, Node.js and GraphQL.
+        Full-Stack Developer building modern web and mobile applications with MongoDB, Express.js, React, Next.js, Node.js
+        NestJS, React Native, GraphQL, and Firebase. Focused on performance, scalability, and exceptional user experiences.
       </Typography>
     </Stack>
   );

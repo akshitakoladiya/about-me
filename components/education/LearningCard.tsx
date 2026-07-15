@@ -17,7 +17,7 @@ import { portfolio } from "@/data/portfolio";
 
 export default function LearningCard() {
     const { education } = portfolio;
-    const { learnings } = education;
+    const { currentLearnings } = education;
     return (
         <Card
             sx={{
@@ -47,7 +47,7 @@ export default function LearningCard() {
                 </Typography>
 
                 <List disablePadding>
-                    {learnings.map((item) => (
+                    {currentLearnings.map((item) => (
                         <ListItem
                             key={item.title}
                             disableGutters
@@ -58,7 +58,7 @@ export default function LearningCard() {
 
                             <ListItemText
                                 primary={item.title}
-                                secondary={item.issuer}
+                                // secondary={item.issuer}
                             />
                         </ListItem>
                     ))}
