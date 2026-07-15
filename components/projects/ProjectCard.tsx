@@ -11,7 +11,7 @@ import {
 
 import { motion } from "framer-motion";
 
-import { Project } from "@/data/portfolio";
+import { Project } from "@/data/projects";
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 import BusinessRoundedIcon from "@mui/icons-material/BusinessRounded";
 import ApartmentRoundedIcon from "@mui/icons-material/ApartmentRounded";

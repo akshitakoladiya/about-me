@@ -5,19 +5,15 @@ import { motion } from "framer-motion";
 import {
   Card,
   CardContent,
-  Chip,
-  Stack,
   Typography,
 } from "@mui/material";
 
 import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
-import CalendarMonthRoundedIcon from "@mui/icons-material/CalendarMonthRounded";
-import LocationOnRoundedIcon from "@mui/icons-material/LocationOnRounded";
 
-import { portfolioData } from "@/data/portfolio";
+import { education } from "@/data/education";
 
 export default function EducationCard() {
-  const { education } = portfolioData;
+
   const { degrees } = education;
   return (
     <motion.div

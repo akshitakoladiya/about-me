@@ -13,10 +13,9 @@ import {
 import RocketLaunchRoundedIcon from "@mui/icons-material/RocketLaunchRounded";
 import ArrowRightRoundedIcon from "@mui/icons-material/ArrowRightRounded";
 
-import { portfolioData } from "@/data/portfolio";
+import { education } from "@/data/education";
 
 export default function CurrentLearningCard() {
-  const { education } = portfolioData;
   const { currentLearnings } = education;
 
   return (

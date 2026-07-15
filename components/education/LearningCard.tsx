@@ -13,10 +13,9 @@ import {
 import MenuBookRoundedIcon from "@mui/icons-material/MenuBookRounded";
 import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 
-import { portfolioData } from "@/data/portfolio";
+import { education } from "@/data/education";
 
 export default function LearningCard() {
-    const { education } = portfolioData;
     const { currentLearnings } = education;
     return (
         <Card

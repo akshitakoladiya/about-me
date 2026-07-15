@@ -18,7 +18,7 @@ import CheckCircleRoundedIcon from "@mui/icons-material/CheckCircleRounded";
 import BusinessRoundedIcon from "@mui/icons-material/BusinessRounded";
 import ApartmentRoundedIcon from "@mui/icons-material/ApartmentRounded";
 
-import { Project } from "@/data/portfolio";
+import { Project } from "@/data/projects";
 
 interface Props {
   project: Project;

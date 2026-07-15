@@ -4,7 +4,8 @@ import { Stack } from "@mui/material";
 
 import NavigationItem from "./NavigationItem";
 
-import { navigation } from "@/data/portfolio";
+import { navigation } from "@/data/navigation";
+
 
 export default function Navigation() {
   return (

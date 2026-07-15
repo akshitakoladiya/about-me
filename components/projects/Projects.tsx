@@ -4,14 +4,13 @@ import { Container, Stack } from "@mui/material";
 
 import SectionTitle from "@/components/common/SectionTitle";
 
-import { portfolioData } from "@/data/portfolio";
+import { projects } from "@/data/projects";
 
 import FeaturedProject from "./FeaturedProject";
 import ProjectCard from "./ProjectCard";
 import ContainerSection from "../common/ContainerSection";
 
 export default function Projects() {
-    const { projects } = portfolioData;
     return (
         <ContainerSection
             id="projects"

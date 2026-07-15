@@ -10,10 +10,9 @@ import {
 
 import LanguageRoundedIcon from "@mui/icons-material/LanguageRounded";
 
-import { portfolioData } from "@/data/portfolio";
+import { education } from "@/data/education";
 
 export default function LanguageCard() {
-    const { education } = portfolioData;
     const { languages } = education;
     return (
         <Card

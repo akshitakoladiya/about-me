@@ -6,7 +6,7 @@ import {
   Button,
 } from "@mui/material";
 
-import { navigation } from "@/data/portfolio";
+import { navigation } from "@/data/navigation";
 import { scrollToSection } from "@/utils/scrollToSection";
 
 export default function FooterLinks() {

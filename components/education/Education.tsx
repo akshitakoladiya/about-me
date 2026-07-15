@@ -19,10 +19,9 @@ import ContainerSection from "@/components/common/ContainerSection";
 import SectionTitle from "@/components/common/SectionTitle";
 import InfoCard from "./InfoCard";
 
-import { portfolioData } from "@/data/portfolio";
+import { education } from "@/data/education";
 
 export default function Education() {
-    const { education } = portfolioData;
     const {
         degrees,
         languages,

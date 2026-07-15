@@ -2,11 +2,7 @@
 
 import { IconButton, Stack, Typography } from "@mui/material";
 
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import DescriptionRoundedIcon from "@mui/icons-material/DescriptionRounded";
-
-import { portfolioData } from "@/data/portfolio";
+import { socialLinks } from "@/data/socials";
 
 export default function FooterSocial() {
   return (
@@ -19,29 +15,18 @@ export default function FooterSocial() {
       </Typography>
 
       <Stack direction="row">
-        <IconButton
-          component="a"
-          href={portfolio.profile.github}
-          target="_blank"
-        >
-          <GitHubIcon />
-        </IconButton>
-
-        <IconButton
-          component="a"
-          href={portfolio.profile.linkedin}
-          target="_blank"
-        >
-          <LinkedInIcon />
-        </IconButton>
-
-        <IconButton
-          component="a"
-          href={portfolio.profile.resume}
-          target="_blank"
-        >
-          <DescriptionRoundedIcon />
-        </IconButton>
+        {
+          socialLinks.map((social) => (
+            <IconButton
+              key={social.name}
+              component="a"
+              target="_blank"
+              href={social.url}
+            >
+              <social.icon />
+            </IconButton>
+          ))
+        }
       </Stack>
     </Stack>
   );

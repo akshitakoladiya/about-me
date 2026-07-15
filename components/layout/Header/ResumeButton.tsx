@@ -10,7 +10,7 @@ export default function ResumeButton() {
   return (
     <Button
       variant="contained"
-      href={portfolio.profile.resume}
+      href={portfolioData.profile.resume}
       component="a"
       target="_blank"
       startIcon={<DownloadRoundedIcon />}

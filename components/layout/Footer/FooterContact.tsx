@@ -14,11 +14,11 @@ export default function FooterContact() {
       </Typography>
 
       <Typography color="text.secondary">
-        {portfolio.profile.email}
+        {portfolioData.profile.email}
       </Typography>
 
       <Typography color="text.secondary">
-        {portfolio.profile.location}
+        {portfolioData.profile.location}
       </Typography>
 
       <Typography color="primary">
