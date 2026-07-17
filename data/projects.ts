@@ -146,7 +146,7 @@ export const projects: Project[] = [
         featured: false,
         title: "Lynxcare",
         company: "ScaleTeam Technologies PVT LTD",
-        client: "LynxCare",
+        client: "Lynx.Care",
         role: "Full Stack Engineer",
         duration: "2021",
         domain: "Healthcare",
