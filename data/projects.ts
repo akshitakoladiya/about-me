@@ -144,6 +144,29 @@ export const projects: Project[] = [
     {
         id: 6,
         featured: false,
+        title: "Lynxcare",
+        company: "ScaleTeam Technologies PVT LTD",
+        client: "LynxCare",
+        role: "Full Stack Engineer",
+        duration: "2021",
+        domain: "Healthcare",
+        challenge: "The healthcare organization relied on manual and fragmented processes to manage the patient lifecycle, follow-up care, and patient education. This resulted in administrative overhead, inconsistent follow-ups, and limited access to standardized treatment information for both healthcare providers and patients.",
+        solution: "The platform streamlined patient workflow management, reduced administrative effort through automated follow-ups, and provided healthcare professionals with a centralized, easy-to-maintain knowledge base. This improved operational efficiency, ensured timely patient communication, and enhanced patient awareness through accessible educational resources.",
+        contributions: [
+            "I designed and developed the platform using Meteor boilerplate, ReactJS, Node.js, and MongoDB.",
+            "I implemented automated follow-up reminders and notification workflows using cron jobs to reduce manual effort and improve patient engagement.",
+            "Additionally, I built a dynamic knowledge management module using CKEditor, allowing healthcare teams to create, update, and manage disease manuals, treatment guidelines, and educational content without requiring developer involvement."
+        ],
+        architecture: ["Monolithic"],
+        technologies: [
+            "Meteor.js", "React.js", "Node.js", "MongoDB", "CKEditor"
+        ],
+        metrics: [],
+        image: "/images/projects/healthcare.png",
+    },
+    {
+        id: 7,
+        featured: false,
         title: "LayAwayCard",
         company: "ScaleTeam Technologies PVT LTD",
         client: "The Mulling Group",
